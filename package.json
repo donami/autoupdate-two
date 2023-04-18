@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developers.webprovisions.io/schemas/2021-11/webprovisions-manifest.schema.json",
+  "name": "@webprovisions-registry/uno-autoupdate-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "dependencies": {
+    "@webprovisions-registry/uno-my-auto-update-thing": "^1.0.0",
+    "@telia-ace/knowledge-widget-core": "^1.0.19",
+    "@telia-ace/knowledge-widget-types-grid": "^1.0.30",
+    "@telia-ace/widget-components-widget-header": "^1.0.18"
+  },
+  "publishConfig": {
+    "registry": "https://registry-dev.webprovisions.io"
+  },
+  "scripts": {
+    "start": "npx vite --open",
+    "build-prod": "npx vite build",
+    "build-dev": "npx vite build --mode development"
+  },
+  "devDependencies": {
+    "vite": "^3.1.7"
+  },
+  "webprovisions": {
+    "type": "distribution"
+  }
+}
