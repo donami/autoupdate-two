@@ -6,10 +6,10 @@
   "main": "src/index.js",
   "author": "",
   "dependencies": {
-    "@webprovisions-registry/uno-my-auto-update-thing": "^1.0.0",
     "@telia-ace/knowledge-widget-core": "^1.0.19",
     "@telia-ace/knowledge-widget-types-grid": "^1.0.30",
-    "@telia-ace/widget-components-widget-header": "^1.0.18"
+    "@telia-ace/widget-components-widget-header": "^1.0.18",
+    "@webprovisions-registry/uno-my-auto-update-thing": "^1.0.4"
   },
   "publishConfig": {
     "registry": "https://registry-dev.webprovisions.io"
