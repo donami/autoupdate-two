@@ -6,11 +6,11 @@
   "main": "src/index.js",
   "author": "",
   "dependencies": {
-    "nanoid": "^4.0.2",
     "@telia-ace/knowledge-widget-core": "^1.0.19",
     "@telia-ace/knowledge-widget-types-grid": "^1.0.30",
     "@telia-ace/widget-components-widget-header": "^1.0.18",
-    "@webprovisions-registry/uno-my-auto-update-thing": "^1.0.4"
+    "@webprovisions-registry/uno-my-auto-update-thing": "^1.0.5",
+    "nanoid": "^4.0.2"
   },
   "publishConfig": {
     "registry": "https://registry-dev.webprovisions.io"
